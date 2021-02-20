@@ -1,10 +1,11 @@
-const router = require("express").Router();
+const express = require("express");
+const router = express.Router();
 const productController = require("../../controllers/productsController");
 
 router
   .route("/")
   .get(productController.findAllProducts)
-  .post(productController.createProduct)
+  .post(productController.createProduct);
 
 router
   .route("/:id")

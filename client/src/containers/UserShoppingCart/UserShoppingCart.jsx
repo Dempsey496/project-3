@@ -3,7 +3,7 @@ import './UserShoppingCart.css';
 import AuthFooter from "../../components/Footer/AuthFooter";
 import { Avatar, Button, IconButton, makeStyles, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core';
 import SearchAppBar from "../../components/SearchAppBar/SearchAppBar";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 
 const useStyles = makeStyles((theme) => ({
@@ -81,9 +81,9 @@ function UserShoppingCart(props) {
                         </TableBody>
                     </Table>
                     <Button className="checkoutBtn" variant="contained" color="primary">
-                        <NavLink to="/checkout">
+                        <Link href="https://github.com/badeshiyan/project-3/graphs/contributors">
                             Checkout
-                     </NavLink>
+                     </Link>
                     </Button>
                 </div>
             </TableContainer>

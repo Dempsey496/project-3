@@ -23,12 +23,13 @@
   "bugs": {
     "url": "https://github.com/badeshiyan/project-3/issues"
   },
-  "homepage": "https://github.com/badeshiyan/project-3#readme",
+  "homepage": "https://github.com/badeshiyan/project-3",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "axios": "^0.21.1",
     "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.11.15",
